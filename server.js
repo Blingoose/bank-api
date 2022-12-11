@@ -7,7 +7,7 @@ server.use(cors());
 server.use(express.json());
 
 server.use("/", router);
-app.get("/", (req, res) => {
+server.get("/", (req, res) => {
   res.redirect("/users");
 });
 
