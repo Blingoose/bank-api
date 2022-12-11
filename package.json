@@ -1,0 +1,26 @@
+{
+  "name": "wa_bank_api",
+  "version": "1.0.0",
+  "description": "Weekend bank-api assigment",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blingoose/WA_bank_api.git"
+  },
+  "author": "Andre Katov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blingoose/WA_bank_api/issues"
+  },
+  "homepage": "https://github.com/Blingoose/WA_bank_api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}
